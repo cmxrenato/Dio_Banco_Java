@@ -35,7 +35,7 @@ public class Cliente extends Conta {
 	
 	public void imprimirExtrato() {
 		System.out.println("");
-		System.out.println("Cliente: "+getNome());
+		System.out.println("Cliente: "+this.nome);
 		System.out.println("Agencia: "+this.agencia);
 		System.out.println("Número da Conta Corrente: "+this.numeroContaCorrente);
 		System.out.println("Saldo da Corrente: "+this.saldoCC);
